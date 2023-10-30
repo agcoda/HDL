@@ -1,0 +1,119 @@
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+
+
+-- Design a combinational circuit which takes in a 4-bit BCD input, 
+-- and outputs a 10-bit value where all the bits are 0 except the bit represented by the BCD value.
+-- For any input outside of the limits of BCD, all outputs will be ?1?.
+-- For instance, if the input is A[3:0]= 0010, this represents the value 2 in decimal. 
+-- Thus, the output will be B[9:0]= 0000000100.
+-- If the input is A[3:0]= 1111, this represents a value greater than the limits of BCD. 
+-- Thus, the output will be B[9:0]= 1111111111.
+
+entity partial_decoder is
+	port(	a:	in	STD_LOGIC_VECTOR(3 downto 0);
+		y:	out	STD_LOGIC_VECTOR(9 downto 0));
+end;
+
+architecture synth of partial_decoder is
+begin
+	process(all)
+	begin
+		case a is
+   			when "0000"	=>	y <= "0000000001";
+   			when "0001"	=>	y <= "0000000010";
+  			when "0010"	=>	y <= "0000000100";
+   			when "0011" 	=>	y <= "0000001000";
+   			when "0100"	=>	y <= "0000010000"; 
+   			when "0101" 	=>	y <= "0000100000"; 
+   			when "0110"	=>	y <= "0001000000"; 
+   			when "0111"	=>	y <= "0010000000";
+   			when "1000"	=>	y <= "0100000000";
+   			when "1001"	=>	y <= "1000000000";
+   			when others 	=>	y <= "1111111111";
+		end case;
+	end process;
+end;
+
+
+library IEEE; use IEEE.STD_LOGIC_1164.all;
+-- Design a state machine that generates a 3-bit output. 
+-- The output will start at 0 and count up, by 1, until it reaches 7 (?111?), 
+-- then start again at 0, repeating forever. 
+-- Add a single input (1 bit). If the input is ?0? the circuit operates as indicated in question 3. 
+-- If the input is ?1? the circuit counts DOWN instead of UP.
+
+entity counterFSM is
+	port(	clk, reset, d:	in	STD_LOGIC;
+		y:		out	STD_LOGIC_VECTOR(2 downto 0));
+end;
+
+architecture synth of counterFSM is
+	type statetype is (S0, S1, S2, S3, S4, S5, S6, S7);
+	signal state, nextstate: statetype;
+begin
+	--state register
+	process(clk,reset)
+	begin
+		if reset then 
+			state <= S0;
+		elsif rising_edge(clk) then
+			state <= nextstate;
+		end if;
+	end process;
+
+	--next state logic
+	process(all) begin
+		if d then 
+			case state is
+				when S0 => nextstate <= S7;
+				when S1 => nextstate <= S0;
+				when S2 => nextstate <= S1;
+				when S3 => nextstate <= S2;
+				when S4 => nextstate <= S3;
+				when S5 => nextstate <= S4;
+				when S6 => nextstate <= S5;
+				when S7 => nextstate <= S6;
+				when others => nextstate <= S0;
+			end case;
+		else --d=0 ct down
+			case state is
+				when S0 => nextstate <= S1;
+				when S1 => nextstate <= S2;
+				when S2 => nextstate <= S3;
+				when S3 => nextstate <= S4;
+				when S4 => nextstate <= S5;
+				when S5 => nextstate <= S6;
+				when S6 => nextstate <= S7;
+				when S7 => nextstate <= S0;
+				when others => nextstate <= S0;
+			end case;
+		end if;
+	end process;
+	
+				
+	--output logic
+	process(all) begin
+		case state is
+			when S0 => y <= "000";
+			when S1 => y <= "001";
+			when S2 => y <= "010";
+			when S3 => y <= "011";
+			when S4 => y <= "100";
+			when S5 => y <= "101";
+			when S6 => y <= "110";
+			when S7 => y <= "111";
+			when others => y <= "111";
+		end case;
+	end process;
+	
+
+end;
+	
+
+
+
+
+
+
+
+

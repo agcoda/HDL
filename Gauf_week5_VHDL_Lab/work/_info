@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Alex Gauf/Documents/verilog
+Ecounterfsm
+Z0 w1698520310
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 37
+Z3 dC:/GitHub/HDL/Gauf_week5_VHDL_Lab
+Z4 8C:/GitHub/HDL/Gauf_week5_VHDL_Lab/week5_lab.vhd
+Z5 FC:/GitHub/HDL/Gauf_week5_VHDL_Lab/week5_lab.vhd
+l0
+L45 1
+VOg2Il8:Pc9@Ll[h832nzV1
+!s100 :cI=@UOLM@e1?RPVUfd_13
+Z6 OV;C;2020.1;71
+33
+Z7 !s110 1698520313
+!i10b 1
+Z8 !s108 1698520313.000000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/GitHub/HDL/Gauf_week5_VHDL_Lab/week5_lab.vhd|
+Z10 !s107 C:/GitHub/HDL/Gauf_week5_VHDL_Lab/week5_lab.vhd|
+!i113 1
+Z11 o-work work -2008 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Asynth
+R1
+R2
+Z13 DEx4 work 10 counterfsm 0 22 Og2Il8:Pc9@Ll[h832nzV1
+!i122 37
+l53
+L50 62
+V[<=EzhF2_MVS??d`CFR7_0
+!s100 A_WLWRC]bOCh4952ChI`S0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Epartial_decoder
+R0
+R1
+R2
+!i122 37
+R3
+R4
+R5
+l0
+L12 1
+VfG<U?2oVRgDBBLOH>F2391
+!s100 2`d`]`>AICiFzEaOQS]Wh1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Asynth
+R1
+R2
+Z14 DEx4 work 15 partial_decoder 0 22 fG<U?2oVRgDBBLOH>F2391
+!i122 37
+l18
+Z15 L17 19
+Z16 VZC9lMC6^:X2Nd=9HO0o@M3
+Z17 !s100 nU=3aL23oEdzLg[g;b]1C2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_week5_lab_counterfsm
+Z18 w1698517070
+R1
+R2
+!i122 28
+R3
+Z19 8C:/GitHub/HDL/Gauf_week5_VHDL_Lab/tb_week5_lab_counterFSM.vhd
+Z20 FC:/GitHub/HDL/Gauf_week5_VHDL_Lab/tb_week5_lab_counterFSM.vhd
+l0
+L3 1
+VkQZ[YEzU@blLi[kCRkOY72
+!s100 54D@nZT5UVIMzmf=mJKo`3
+R6
+32
+Z21 !s110 1698519142
+!i10b 1
+Z22 !s108 1698519142.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/GitHub/HDL/Gauf_week5_VHDL_Lab/tb_week5_lab_counterFSM.vhd|
+Z24 !s107 C:/GitHub/HDL/Gauf_week5_VHDL_Lab/tb_week5_lab_counterFSM.vhd|
+!i113 1
+Z25 o-work work -2002 -explicit
+R12
+Asim
+R1
+R2
+DEx4 work 23 tb_week5_lab_counterfsm 0 22 kQZ[YEzU@blLi[kCRkOY72
+!i122 28
+l14
+L7 29
+VUV]KHBCY[BMM?PLBn;Yl?0
+!s100 V_8H8ZY2@LU^6S^`iD[b02
+R6
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R25
+R12
+Etb_week5_lab_partial_decoder
+Z26 w1698515027
+R1
+R2
+!i122 17
+R3
+Z27 8C:/GitHub/HDL/Gauf_week5_VHDL_Lab/tb_week5_lab_partial_decoder.vhd
+Z28 FC:/GitHub/HDL/Gauf_week5_VHDL_Lab/tb_week5_lab_partial_decoder.vhd
+l0
+L3 1
+Vo1mcZ=ZFlnLhQj8?LiJT42
+!s100 4D<64ODNLS7k[OgY_VVTl2
+R6
+32
+Z29 !s110 1698515034
+!i10b 1
+Z30 !s108 1698515034.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/GitHub/HDL/Gauf_week5_VHDL_Lab/tb_week5_lab_partial_decoder.vhd|
+Z32 !s107 C:/GitHub/HDL/Gauf_week5_VHDL_Lab/tb_week5_lab_partial_decoder.vhd|
+!i113 1
+R25
+R12
+Asim
+R1
+R2
+DEx4 work 28 tb_week5_lab_partial_decoder 0 22 o1mcZ=ZFlnLhQj8?LiJT42
+!i122 17
+l13
+L6 32
+V`i_Q`3:n5:R]W]LLV=k4M1
+!s100 lZckFXf@Va;HPGZmMD9]82
+R6
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R25
+R12
