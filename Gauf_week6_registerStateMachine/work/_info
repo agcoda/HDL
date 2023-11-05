@@ -1,0 +1,113 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vmemStateMachine
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1699154586
+!i10b 1
+!s100 DNMk5J`@BUaI7PWMI@0Ej3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[=S2AAjCI7g^XU`E1SP7Z3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/GitHub/HDL/Gauf_week6_registerStateMachine
+Z5 w1699153002
+Z6 8C:\GitHub\HDL\Gauf_week6_registerStateMachine\registerSumStateMachine.sv
+Z7 FC:\GitHub\HDL\Gauf_week6_registerStateMachine\registerSumStateMachine.sv
+!i122 0
+L0 19 57
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1699154586.000000
+Z10 !s107 C:\GitHub\HDL\Gauf_week6_registerStateMachine\registerSumStateMachine.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\GitHub\HDL\Gauf_week6_registerStateMachine\registerSumStateMachine.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+nmem@state@machine
+vregister_4bit
+R0
+R1
+!i10b 1
+!s100 [nYbXoF`0d<CJQF@4PljA1
+R2
+I1Dh3ac4Oc3hXBEo8R@0<c2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 0
+L0 78 17
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vtb_register_4bit
+R0
+R1
+!i10b 1
+!s100 L]km8_35;W^0WT6igGKEm3
+R2
+IKQ`R=R?cXNOIf6WEK6>_T2
+R3
+S1
+R4
+w1699150750
+8C:/GitHub/HDL/Gauf_week6_registerStateMachine/tb_register_4bit.sv
+FC:/GitHub/HDL/Gauf_week6_registerStateMachine/tb_register_4bit.sv
+!i122 1
+L0 1 39
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/GitHub/HDL/Gauf_week6_registerStateMachine/tb_register_4bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week6_registerStateMachine/tb_register_4bit.sv|
+!i113 1
+R12
+R13
+vtb_registerStateMachine
+R0
+!s110 1699154734
+!i10b 1
+!s100 zTjMX@:;b9O_RkGi>RI>53
+R2
+I92gMH[]AZbnGaBOSS@RMz3
+R3
+S1
+R4
+w1699153058
+8C:/GitHub/HDL/Gauf_week6_registerStateMachine/tb_memStateMachine.sv
+FC:/GitHub/HDL/Gauf_week6_registerStateMachine/tb_memStateMachine.sv
+!i122 3
+L0 1 51
+R8
+r1
+!s85 0
+31
+!s108 1699154734.000000
+!s107 C:/GitHub/HDL/Gauf_week6_registerStateMachine/tb_memStateMachine.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week6_registerStateMachine/tb_memStateMachine.sv|
+!i113 1
+R12
+R13
+ntb_register@state@machine
