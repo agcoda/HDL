@@ -1,0 +1,71 @@
+C:/GitHub/HDL/Gauf_week8_parts/tb_8bitMux.sv {1 {vlog -work work -sv -stats=none C:/GitHub/HDL/Gauf_week8_parts/tb_8bitMux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_eightBitMux
+
+Top level modules:
+	tb_eightBitMux
+
+} {} {}} C:/GitHub/HDL/Gauf_week8_parts/alu.sv {1 {vlog -work work -sv -stats=none C:/GitHub/HDL/Gauf_week8_parts/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module aLU
+
+Top level modules:
+	aLU
+
+} {} {}} C:/GitHub/HDL/Gauf_week8_parts/tb_alu.sv {1 {vlog -work work -sv -stats=none C:/GitHub/HDL/Gauf_week8_parts/tb_alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_alu
+
+Top level modules:
+	tb_alu
+
+} {} {}} C:/GitHub/HDL/Gauf_week8_parts/progMem.sv {1 {vlog -work work -sv -stats=none {C:\GitHub\HDL\Gauf_week8_parts\progMem.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module progMem
+
+Top level modules:
+	progMem
+
+} {} {}} C:/GitHub/HDL/Gauf_week8_parts/programCounter.sv {1 {vlog -work work -sv -stats=none {C:\GitHub\HDL\Gauf_week8_parts\programCounter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module programCounter
+
+Top level modules:
+	programCounter
+
+} {} {}} C:/GitHub/HDL/Gauf_week8_parts/tb_progMem.sv {1 {vlog -work work -sv -stats=none C:/GitHub/HDL/Gauf_week8_parts/tb_progMem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_progMem
+
+Top level modules:
+	tb_progMem
+
+} {} {}} C:/GitHub/HDL/Gauf_week8_parts/registers.sv {1 {vlog -work work -sv -stats=none C:/GitHub/HDL/Gauf_week8_parts/registers.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/GitHub/HDL/Gauf_week8_parts/tb_progCounter.sv {1 {vlog -work work -sv -stats=none C:/GitHub/HDL/Gauf_week8_parts/tb_progCounter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_progCounter
+
+Top level modules:
+	tb_progCounter
+
+} {} {}} C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv {1 {vlog -work work -sv -stats=none C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_registers
+
+Top level modules:
+	tb_registers
+
+} {} {}} C:/GitHub/HDL/Gauf_week8_parts/8bitMux.sv {1 {vlog -work work -sv -stats=none C:/GitHub/HDL/Gauf_week8_parts/8bitMux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module eightBitMux
+
+Top level modules:
+	eightBitMux
+
+} {} {}}

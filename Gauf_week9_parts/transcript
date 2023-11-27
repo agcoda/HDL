@@ -1,0 +1,453 @@
+# Compile of microPParts.sv failed with 1 errors.
+# Compile of microPParts.sv failed with 1 errors.
+# Compile of microPParts.sv failed with 1 errors.
+# Compile of microPParts.sv was successful.
+# Compile of microPParts.sv failed with 4 errors.
+# Compile of alu.sv failed with 4 errors.
+# Compile of alu.sv failed with 2 errors.
+# Compile of alu.sv failed with 2 errors.
+# Compile of alu.sv failed with 5 errors.
+# Compile of alu.sv failed with 5 errors.
+# Compile of alu.sv failed with 1 errors.
+# Compile of alu.sv was successful.
+# Compile of programCounter.sv was successful.
+# Compile of registers.sv failed with 2 errors.
+# Compile of registers.sv was successful.
+# Compile of 8bitMux.sv failed with 1 errors.
+# Compile of microPParts.sv failed with 4 errors.
+# Compile of alu.sv was successful.
+# Compile of programCounter.sv failed with 5 errors.
+# Compile of 8bitMux.sv failed with 2 errors.
+# Compile of progMem.sv was successful.
+# Compile of registers.sv was successful.
+# 6 compiles, 3 failed with 11 errors.
+# Compile of 8bitMux.sv failed with 2 errors.
+# Compile of 8bitMux.sv failed with 1 errors.
+# Compile of 8bitMux.sv was successful.
+# Compile of programCounter.sv failed with 5 errors.
+# Compile of microPParts.sv failed with 4 errors.
+# Compile of alu.sv was successful.
+# Compile of programCounter.sv was successful.
+# Compile of 8bitMux.sv was successful.
+# Compile of progMem.sv was successful.
+# Compile of registers.sv was successful.
+# 6 compiles, 1 failed with 4 errors.
+# Compile of progMem.sv was successful.
+# Compile of tb_8bitMux.sv failed with 2 errors.
+# Compile of tb_8bitMux.sv was successful.
+vsim -gui work.tb_eightBitMux
+# vsim -gui work.tb_eightBitMux 
+# Start time: 08:09:15 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_eightBitMux
+# Loading work.eightBitMux
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_eightBitMux/testClk \
+sim:/tb_eightBitMux/Input_0 \
+sim:/tb_eightBitMux/Input_1 \
+sim:/tb_eightBitMux/SEL \
+sim:/tb_eightBitMux/MUX_Out
+run
+# Compile of tb_registers.sv failed with 5 errors.
+# Compile of tb_registers.sv failed with 4 errors.
+# Compile of tb_registers.sv was successful.
+# Compile of registers.sv was successful.
+vsim work.tb_registers
+# End time: 08:36:23 on Nov 26,2023, Elapsed time: 0:27:08
+# Errors: 0, Warnings: 43
+# vsim work.tb_registers 
+# Start time: 08:36:23 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# ** Error: (vsim-3033) Instantiation of 'registers' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_registers File: C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv Line: 10
+#         Searched libraries:
+#             C:/GitHub/HDL/Gauf_week8_parts/work
+# Error loading design
+# End time: 08:36:24 on Nov 26,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.tb_registers
+# vsim work.tb_registers 
+# Start time: 08:36:30 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# ** Error: (vsim-3033) Instantiation of 'registers' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_registers File: C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv Line: 10
+#         Searched libraries:
+#             C:/GitHub/HDL/Gauf_week8_parts/work
+# Error loading design
+# End time: 08:36:30 on Nov 26,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.tb_registers
+# vsim work.tb_registers 
+# Start time: 08:36:42 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# ** Error: (vsim-3033) Instantiation of 'registers' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_registers File: C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv Line: 10
+#         Searched libraries:
+#             C:/GitHub/HDL/Gauf_week8_parts/work
+# Error loading design
+# End time: 08:36:42 on Nov 26,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of tb_registers.sv was successful.
+vsim work.tb_registers
+# vsim work.tb_registers 
+# Start time: 08:37:30 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# ** Error: (vsim-3033) Instantiation of 'registers' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_registers File: C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv Line: 10
+#         Searched libraries:
+#             C:/GitHub/HDL/Gauf_week8_parts/work
+# Error loading design
+# End time: 08:37:30 on Nov 26,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of tb_registers.sv was successful.
+vsim work.tb_registers
+# vsim work.tb_registers 
+# Start time: 08:38:24 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# Loading work.register
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 9, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_registers/DUT File: C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv Line: 10
+# ** Warning: (vsim-3722) C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv(10): [TFMPC] - Missing connection for port 'Out_A'.
+# ** Warning: (vsim-3722) C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv(10): [TFMPC] - Missing connection for port 'Out_B'.
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_registers/Clock \
+sim:/tb_registers/Reset \
+sim:/tb_registers/Addr_A \
+sim:/tb_registers/Addr_B \
+sim:/tb_registers/Addr_WR \
+sim:/tb_registers/WR \
+sim:/tb_registers/DIN \
+sim:/tb_registers/i
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_registers.sv was successful.
+vsim work.tb_registers
+# End time: 08:41:23 on Nov 26,2023, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 6
+# vsim work.tb_registers 
+# Start time: 08:41:23 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# Loading work.register
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_registers/Clock \
+sim:/tb_registers/Reset \
+sim:/tb_registers/Addr_A \
+sim:/tb_registers/Addr_B \
+sim:/tb_registers/Addr_WR \
+sim:/tb_registers/WR \
+sim:/tb_registers/DIN \
+sim:/tb_registers/Out_A \
+sim:/tb_registers/Out_B \
+sim:/tb_registers/i
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_registers.sv was successful.
+# Compile of registers.sv was successful.
+vsim work.tb_registers
+# End time: 08:43:16 on Nov 26,2023, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 3
+# vsim work.tb_registers 
+# Start time: 08:43:16 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# Loading work.register
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_registers/Clock \
+sim:/tb_registers/Reset \
+sim:/tb_registers/Addr_A \
+sim:/tb_registers/Addr_B \
+sim:/tb_registers/Addr_WR \
+sim:/tb_registers/WR \
+sim:/tb_registers/DIN \
+sim:/tb_registers/Out_A \
+sim:/tb_registers/Out_B \
+sim:/tb_registers/i
+run
+run
+run
+# Compile of tb_registers.sv was successful.
+vsim work.tb_registers
+# End time: 08:48:31 on Nov 26,2023, Elapsed time: 0:05:15
+# Errors: 0, Warnings: 2
+# vsim work.tb_registers 
+# Start time: 08:48:31 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# Loading work.register
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_registers/Clock \
+sim:/tb_registers/Reset \
+sim:/tb_registers/Addr_A \
+sim:/tb_registers/Addr_B \
+sim:/tb_registers/Addr_WR \
+sim:/tb_registers/WR \
+sim:/tb_registers/DIN \
+sim:/tb_registers/Out_A \
+sim:/tb_registers/Out_B \
+sim:/tb_registers/i
+run
+run
+run
+run
+run
+run
+# Compile of registers.sv was successful.
+vsim work.tb_registers
+# End time: 08:53:17 on Nov 26,2023, Elapsed time: 0:04:46
+# Errors: 0, Warnings: 2
+# vsim work.tb_registers 
+# Start time: 08:53:17 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# Loading work.register
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_registers/Clock \
+sim:/tb_registers/Reset \
+sim:/tb_registers/Addr_A \
+sim:/tb_registers/Addr_B \
+sim:/tb_registers/Addr_WR \
+sim:/tb_registers/WR \
+sim:/tb_registers/DIN \
+sim:/tb_registers/Out_A \
+sim:/tb_registers/Out_B \
+sim:/tb_registers/i
+run
+run
+run
+# Compile of tb_registers.sv was successful.
+vsim work.tb_registers
+# End time: 08:54:51 on Nov 26,2023, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 2
+# vsim work.tb_registers 
+# Start time: 08:54:51 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# Loading work.register
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_registers/Clock \
+sim:/tb_registers/Reset \
+sim:/tb_registers/Addr_A \
+sim:/tb_registers/Addr_B \
+sim:/tb_registers/Addr_WR \
+sim:/tb_registers/WR \
+sim:/tb_registers/DIN \
+sim:/tb_registers/Out_A \
+sim:/tb_registers/Out_B \
+sim:/tb_registers/i
+run
+run
+run
+run
+run
+# Compile of alu.sv was successful.
+# Compile of programCounter.sv was successful.
+# Compile of 8bitMux.sv was successful.
+# Compile of progMem.sv was successful.
+# Compile of registers.sv was successful.
+# Compile of tb_8bitMux.sv was successful.
+# Compile of tb_registers.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.tb_registers
+# End time: 08:59:17 on Nov 26,2023, Elapsed time: 0:04:26
+# Errors: 0, Warnings: 2
+# vsim work.tb_registers 
+# Start time: 08:59:17 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# Loading work.register
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_registers/Clock \
+sim:/tb_registers/Reset \
+sim:/tb_registers/Addr_A \
+sim:/tb_registers/Addr_B \
+sim:/tb_registers/Addr_WR \
+sim:/tb_registers/WR \
+sim:/tb_registers/DIN \
+sim:/tb_registers/Out_A \
+sim:/tb_registers/Out_B \
+sim:/tb_registers/i
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+# Compile of tb_registers.sv was successful.
+vsim work.tb_registers
+# End time: 09:00:56 on Nov 26,2023, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 2
+# vsim work.tb_registers 
+# Start time: 09:00:56 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_registers
+# Loading work.register
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_registers/Clock \
+sim:/tb_registers/Reset \
+sim:/tb_registers/Addr_A \
+sim:/tb_registers/Addr_B \
+sim:/tb_registers/Addr_WR \
+sim:/tb_registers/WR \
+sim:/tb_registers/DIN \
+sim:/tb_registers/Out_A \
+sim:/tb_registers/Out_B \
+sim:/tb_registers/i
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+# Compile of tb_progMem.sv was successful.
+vsim work.tb_progMem
+# End time: 15:19:13 on Nov 26,2023, Elapsed time: 6:18:17
+# Errors: 0, Warnings: 3
+# vsim work.tb_progMem 
+# Start time: 15:19:13 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_progMem
+# Loading work.progMem
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_progMem/testClk \
+sim:/tb_progMem/Address \
+sim:/tb_progMem/Data_Out
+run
+# Compile of tb_progCounter.sv failed with 1 errors.
+# Compile of alu.sv was successful.
+# Compile of programCounter.sv was successful.
+# Compile of 8bitMux.sv was successful.
+# Compile of progMem.sv was successful.
+# Compile of registers.sv was successful.
+# Compile of tb_8bitMux.sv was successful.
+# Compile of tb_registers.sv was successful.
+# Compile of tb_progMem.sv was successful.
+# Compile of tb_progCounter.sv was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.tb_progCounter
+# End time: 15:35:58 on Nov 26,2023, Elapsed time: 0:16:45
+# Errors: 0, Warnings: 4
+# vsim work.tb_progCounter 
+# Start time: 15:35:58 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_progCounter
+# Loading work.programCounter
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_progCounter/Clock \
+sim:/tb_progCounter/Reset \
+sim:/tb_progCounter/DIN \
+sim:/tb_progCounter/WR \
+sim:/tb_progCounter/Address
+run
+run
+run
+# Compile of alu.sv was successful.
+# Compile of programCounter.sv was successful.
+# Compile of 8bitMux.sv was successful.
+# Compile of progMem.sv was successful.
+# Compile of registers.sv was successful.
+# Compile of tb_8bitMux.sv was successful.
+# Compile of tb_registers.sv was successful.
+# Compile of tb_progMem.sv was successful.
+# Compile of tb_progCounter.sv was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.tb_progCounter
+# End time: 15:39:26 on Nov 26,2023, Elapsed time: 0:03:28
+# Errors: 0, Warnings: 2
+# vsim work.tb_progCounter 
+# Start time: 15:39:26 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_progCounter
+# Loading work.programCounter
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_progCounter/Clock \
+sim:/tb_progCounter/Reset \
+sim:/tb_progCounter/DIN \
+sim:/tb_progCounter/WR \
+sim:/tb_progCounter/Address
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# Compile of tb_alu.sv failed with 2 errors.
+# Compile of tb_alu.sv failed with 2 errors.
+# Compile of tb_alu.sv was successful.
+# Compile of programCounter.sv was successful.
+vsim work.tb_alu
+# End time: 15:53:10 on Nov 26,2023, Elapsed time: 0:13:44
+# Errors: 0, Warnings: 6
+# vsim work.tb_alu 
+# Start time: 15:53:10 on Nov 26,2023
+# Loading sv_std.std
+# Loading work.tb_alu
+# Loading work.aLU
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_alu/testClk \
+sim:/tb_alu/A \
+sim:/tb_alu/B \
+sim:/tb_alu/OPCode \
+sim:/tb_alu/ALU_Out
+run
+run
+restart
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# End time: 16:05:02 on Nov 26,2023, Elapsed time: 0:11:52
+# Errors: 0, Warnings: 1

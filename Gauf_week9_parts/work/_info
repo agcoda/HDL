@@ -1,0 +1,268 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/GitHub/HDL/Gauf_week6_registerStateMachine
+vaLU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1701041957
+!i10b 1
+!s100 VfEH?2KHhI<dFfT749bMf1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>I>dE9[Z`JA=4M<4U:c7F0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/GitHub/HDL/Gauf_week8_parts
+w1700931561
+8C:/GitHub/HDL/Gauf_week8_parts/alu.sv
+FC:/GitHub/HDL/Gauf_week8_parts/alu.sv
+!i122 44
+L0 25 21
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1701041957.000000
+!s107 C:/GitHub/HDL/Gauf_week8_parts/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week8_parts/alu.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+na@l@u
+veightBitMux
+R0
+R1
+!i10b 1
+!s100 Ih<Ld4a[;JgYEI`k2?PE63
+R2
+IU3<TzXSAll]Dz8gzUE5PR0
+R3
+S1
+R4
+w1701012614
+8C:/GitHub/HDL/Gauf_week8_parts/8bitMux.sv
+FC:/GitHub/HDL/Gauf_week8_parts/8bitMux.sv
+!i122 46
+L0 19 11
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/GitHub/HDL/Gauf_week8_parts/8bitMux.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week8_parts/8bitMux.sv|
+!i113 1
+R7
+R8
+neight@bit@mux
+vprogMem
+R0
+R1
+!i10b 1
+!s100 V4`3?dP^Rk9?RPnKjT=oB0
+R2
+I<L3F2XlNnXNLPZHLB;iPj2
+R3
+S1
+R4
+w1701014082
+8C:\GitHub\HDL\Gauf_week8_parts\progMem.sv
+FC:\GitHub\HDL\Gauf_week8_parts\progMem.sv
+!i122 47
+L0 27 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\GitHub\HDL\Gauf_week8_parts\progMem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\GitHub\HDL\Gauf_week8_parts\progMem.sv|
+!i113 1
+R7
+R8
+nprog@mem
+vprogramCounter
+R0
+!s110 1701042781
+!i10b 1
+!s100 V5M_A4b0CV:M=EBN:TnJZ3
+R2
+IdBY;HX78BI@W7dA56:Rl80
+R3
+S1
+R4
+w1701042040
+8C:\GitHub\HDL\Gauf_week8_parts\programCounter.sv
+FC:\GitHub\HDL\Gauf_week8_parts\programCounter.sv
+!i122 54
+L0 10 41
+R5
+r1
+!s85 0
+31
+!s108 1701042781.000000
+!s107 C:\GitHub\HDL\Gauf_week8_parts\programCounter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\GitHub\HDL\Gauf_week8_parts\programCounter.sv|
+!i113 1
+R7
+R8
+nprogram@counter
+vregister
+R0
+R1
+!i10b 1
+!s100 bkf]o=d^8<Bn<9LB9K8dN2
+R2
+I[R`Y@HeAJ4X?bF8@bW<aQ2
+R3
+S1
+R4
+w1701017942
+8C:/GitHub/HDL/Gauf_week8_parts/registers.sv
+FC:/GitHub/HDL/Gauf_week8_parts/registers.sv
+!i122 48
+L0 5 46
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/GitHub/HDL/Gauf_week8_parts/registers.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week8_parts/registers.sv|
+!i113 1
+R7
+R8
+vtb_alu
+R0
+!s110 1701042775
+!i10b 1
+!s100 ogL`hlFf_JjeoA2OAQ<Zf1
+R2
+IK<8]?X4zA6zPG4Q1=PJ[<2
+R3
+S1
+R4
+w1701042770
+8C:/GitHub/HDL/Gauf_week8_parts/tb_alu.sv
+FC:/GitHub/HDL/Gauf_week8_parts/tb_alu.sv
+!i122 53
+L0 1 54
+R5
+r1
+!s85 0
+31
+!s108 1701042775.000000
+!s107 C:/GitHub/HDL/Gauf_week8_parts/tb_alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week8_parts/tb_alu.sv|
+!i113 1
+R7
+R8
+vtb_eightBitMux
+R0
+R1
+!i10b 1
+!s100 nf1:n`D;iS:>MAaZdPfHJ3
+R2
+IfZIzO>KAh0>f<OYVb5:YO1
+R3
+S1
+R4
+w1701014896
+8C:/GitHub/HDL/Gauf_week8_parts/tb_8bitMux.sv
+FC:/GitHub/HDL/Gauf_week8_parts/tb_8bitMux.sv
+!i122 49
+L0 1 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/GitHub/HDL/Gauf_week8_parts/tb_8bitMux.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week8_parts/tb_8bitMux.sv|
+!i113 1
+R7
+R8
+ntb_eight@bit@mux
+vtb_progCounter
+R0
+!s110 1701041958
+!i10b 1
+!s100 C@8_zF``okTbhR8;mk9Hz3
+R2
+IW:<RX4U7NXY6czE1eIn@01
+R3
+S1
+R4
+w1701041948
+8C:/GitHub/HDL/Gauf_week8_parts/tb_progCounter.sv
+FC:/GitHub/HDL/Gauf_week8_parts/tb_progCounter.sv
+!i122 52
+L0 1 38
+R5
+r1
+!s85 0
+31
+!s108 1701041958.000000
+!s107 C:/GitHub/HDL/Gauf_week8_parts/tb_progCounter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week8_parts/tb_progCounter.sv|
+!i113 1
+R7
+R8
+ntb_prog@counter
+vtb_progMem
+R0
+R1
+!i10b 1
+!s100 I^ef]o_eZ<o=an7GZ2T9S2
+R2
+I[VZH<`Ek9iLYdQXYFZZ;>1
+R3
+S1
+R4
+w1701040671
+8C:/GitHub/HDL/Gauf_week8_parts/tb_progMem.sv
+FC:/GitHub/HDL/Gauf_week8_parts/tb_progMem.sv
+!i122 51
+L0 1 31
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/GitHub/HDL/Gauf_week8_parts/tb_progMem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week8_parts/tb_progMem.sv|
+!i113 1
+R7
+R8
+ntb_prog@mem
+vtb_registers
+R0
+R1
+!i10b 1
+!s100 7818Xl07]1Ra84F<l6<721
+R2
+IZ4^EPmnZLUX8e[3O7Ia2@1
+R3
+S1
+R4
+w1701018041
+8C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv
+FC:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv
+!i122 50
+L0 1 65
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/GitHub/HDL/Gauf_week8_parts/tb_registers.sv|
+!i113 1
+R7
+R8
